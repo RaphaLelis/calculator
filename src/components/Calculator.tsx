@@ -40,16 +40,16 @@ const Calculator: React.FC = () => {
 	}
 	function calculate(e: any){
 		if (operator ==="/"){
-			setNum (parseFloat(oldNum)/parseFloat(num));
+			setNum (oldNum/num);
 		}
 		if (operator === "+"){
-			setNum (parseFloat(oldNum)+ parseFloat(num));
+			setNum (oldNum+ num);
 		}
 		if (operator === "*"){
-			setNum (parseFloat(oldNum)*parseFloat(num));
+			setNum (oldNum*num);
 		}
 		if (operator === "-"){
-			setNum (parseFloat(oldNum)-parseFloat(num));
+			setNum (oldNum-num);
 		}
 	}
   return (
