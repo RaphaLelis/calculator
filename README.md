@@ -1,8 +1,8 @@
-# Calculadora Iphone Ios 15
+# Calculadora Iphone IOS 15
 
 https://calculatorios15.netlify.app/
 
-> Projeto para demonstrar a calculadora do Iphone Ios 15  em React e Typescript.
+> Projeto para demonstrar a calculadora do Iphone IOS 15  em React e Typescript.
 
 ## 🚀 Instalando <calculator>
 
