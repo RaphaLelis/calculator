@@ -43,7 +43,7 @@ const Calculator: React.FC = () => {
 			setNum (oldNum/num);
 		}
 		if (operator === "+"){
-			setNum (oldNum+ num);
+			setNum (+oldNum + +num);
 		}
 		if (operator === "*"){
 			setNum (oldNum*num);
